@@ -1,0 +1,5 @@
+print('Hello, World!')
+print(1+5)
+print(9*6)
+print()
+print("The End", "or is it?", "many more",3)

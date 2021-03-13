@@ -3,5 +3,5 @@ projectKey=Python-Basics-Learn
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.18114
 dashboardUrl=https://sonarcloud.io/dashboard?id=Python-Basics-Learn
-ceTaskId=AXghp0DbiJ2lnn9IK8yn
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXghp0DbiJ2lnn9IK8yn
+ceTaskId=AXgmFG8iEhslswL8xMPd
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXgmFG8iEhslswL8xMPd

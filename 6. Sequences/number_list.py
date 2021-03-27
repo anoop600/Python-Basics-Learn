@@ -17,3 +17,18 @@ print(len(odd))
 print()
 
 print("anoop".count("oo"))
+
+empty_list = []
+numbers = even + odd
+print(numbers)
+
+print()
+
+numbers = [even , odd]
+print(numbers)
+
+print()
+for number_list in numbers:
+    print(number_list)
+    for number in number_list:
+        print(number)

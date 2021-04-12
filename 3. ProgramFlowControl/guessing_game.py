@@ -1,15 +1,21 @@
 answer = 5
 
+def get_integer(prompt):
+    while True:
+        temp = input(prompt)
+        if temp.isnumeric():
+            return int(temp)
+
 print("Please guess number between 1 and 10: ")
 
-guess = int(input())
+guess = get_integer(": ")
 
 if guess != answer:
     if guess < answer:
         print("Guess Higher... Guess Again")
     else:
         print("Guess Lower... Guess Again")
-    guess = int(input())
+    guess = get_integer(": ")
     if answer == guess:
         print("Guess Successful")
     else:

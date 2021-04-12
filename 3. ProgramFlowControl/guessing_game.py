@@ -5,6 +5,9 @@ def get_integer(prompt):
         temp = input(prompt)
         if temp.isnumeric():
             return int(temp)
+        # else:
+        #     print("{} is not a valid number".format(temp))
+        print("{} is not a valid number".format(temp))
 
 print("Please guess number between 1 and 10: ")
 

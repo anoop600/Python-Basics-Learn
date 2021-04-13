@@ -9,7 +9,7 @@ def validate_data_type(number):
         return True
 
 
-def fibonacci(number, accumulator={}):
+def fibonacci(number: int, accumulator: dict = {}) -> int:
     """[Return `n`th fibonacci number from the series. 
     Used recurssive programming and made it efficient using dynamic programming.
     Used accumulator to store intermediate vaules generated, which reduces time complexity.
@@ -29,7 +29,7 @@ def fibonacci(number, accumulator={}):
             return accumulator[number]
         accumulator[number] = fibonacci(
             number-1, accumulator) + fibonacci(number-2, accumulator)
-        print(accumulator)
+        #print(accumulator)
         return accumulator[number]
 
 
@@ -42,7 +42,7 @@ def fibonacci(number, accumulator={}):
 # print(fibonacci(6))
 # print(fibonacci(7))
 # print(fibonacci(8))
-# print(fibonacci(50))
+#print(fibonacci(50))
 print(fibonacci('a'))
 
 # 0,1,1,2,3,5,8,13,21

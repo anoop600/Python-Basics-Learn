@@ -30,4 +30,9 @@ squares = set(squares_tuple)
 print(sorted(squares))
 
 print("even minus squares")
-print(sorted(e))
+print(sorted(even.difference(squares)))
+print(sorted(even - squares))
+
+print("square minus even")
+print(squares.difference(even))
+print(squares - even)

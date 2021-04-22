@@ -1,5 +1,7 @@
 import pickle
 
+#Pickle -> JAVA Serialisation
+#Dump data into file
 imelda = "More Mayhem", "Idelda May", "2011", (
     (1, "Pulling the Rug"), (2, "Psycho"), (3, "Meyhem"), (4, "Kentish Town Waltz")
 )
